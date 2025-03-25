@@ -1,3 +1,8 @@
+ /* Ensure the wrapper has a relative position */
+ .wrapper {
+  position: relative;
+}
+
 /* Select the image with a class of kitty-1 */
 .kitty-1 {
   position: absolute;
@@ -35,5 +40,4 @@ img[alt="Kitty 5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
-  left: 223px;
-}
+  left: 223px;}
